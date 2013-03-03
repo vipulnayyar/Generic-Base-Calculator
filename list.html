@@ -1,0 +1,64 @@
+<html>
+<head>
+
+<title> Base Conversion Codes</title>
+<script type="text/javascript" src="jquery.min.js"></script>
+
+<script type="text/javascript" src="list.js"></script>
+
+<script type="text/javascript">
+
+$(document).ready(function() {
+
+
+var html="<center><table border=1>";
+
+html = html + "<tr> <td>   -----Base-----  </td>   <td> ----- Notation Used----- </td> </tr>";
+
+for (var i = 2; i < 520 ; i++) {
+
+html = html + "<tr>";
+
+html = html + "<td>" + i + "</td>";
+
+html = html + "<td>" + list[i] + "</td>";
+
+
+
+html = html + "</tr>";
+
+};
+
+
+html =html + "</table> </center>";
+
+
+$("#body").html(html);
+
+
+});
+
+
+</script>
+
+
+</head>
+
+<body>
+
+<a href="index.html"> <== Home </a>
+
+<div id ="body">
+
+
+
+
+
+
+
+</div>
+
+
+</body>
+
+</html>

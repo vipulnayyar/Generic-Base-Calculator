@@ -1,0 +1,49 @@
+.button{
+
+width:40px;
+
+}
+
+#button{
+
+width: auto;
+
+	
+}
+
+.main{
+
+float:left;
+width: 22%;
+
+border-style: solid;
+border-color: #E9E9E9;
+border-width: 1px 1px 1px 1px;
+padding: 2%;
+
+
+}
+
+.final{
+
+display:none;
+clear:both;
+width: 98%;
+text-align: center;
+
+
+
+border-style: solid;
+border-color: #E9E9E9;
+border-width: 1px 1px 1px 1px;
+padding: 2%;
+
+
+}
+
+.button-mid{
+
+
+width:20%;
+
+}

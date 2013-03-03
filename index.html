@@ -1,0 +1,159 @@
+<html>
+<head>
+<title>
+
+Generic Base calulator
+
+</title>
+
+<script type="text/javascript" src="jquery.min.js"></script>
+
+<script type="text/javascript" src="start.js"></script>
+<script type="text/javascript" src="function.js"></script>
+<script type="text/javascript" src="list.js"></script>
+
+
+
+<script type="text/javascript" src="convert/convert_init.js"></script>
+<script type="text/javascript" src="convert/convert_cal.js"></script>
+
+<script type="text/javascript" src="add/add_init.js"></script>
+<script type="text/javascript" src="add/add_cal.js"></script>
+<script type="text/javascript" src="add/add_backup.js"></script>
+
+
+<script type="text/javascript" src="subtract/subtract_init.js"></script>
+<script type="text/javascript" src="subtract/subtract_cal.js"></script>
+<script type="text/javascript" src="subtract/subtract_backup.js"></script>
+
+
+<script type="text/javascript" src="multiply/multiply_init.js"></script>
+<script type="text/javascript" src="multiply/multiply_cal.js"></script>
+<script type="text/javascript" src="multiply/multiply_backup.js"></script>
+
+
+<script type="text/javascript" src="divide/divide_init.js"></script>
+<script type="text/javascript" src="divide/divide_cal.js"></script>
+
+<script type="text/javascript" src="and/and_init.js"></script>
+<script type="text/javascript" src="and/and_cal.js"></script>
+
+<script type="text/javascript" src="or/or_init.js"></script>
+<script type="text/javascript" src="or/or_cal.js"></script>
+
+<script type="text/javascript" src="not/not_init.js"></script>
+<script type="text/javascript" src="not/not_cal.js"></script>
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<script type="text/javascript">
+  
+  var num1="";
+var num2="";
+var ans="";
+var state="1";
+
+
+
+
+
+
+
+
+</script>
+
+
+ 
+
+</head>
+
+
+
+<body>
+
+
+
+<div name="first" id="first" class="main">
+
+
+			<div id="select_first"></div>	
+
+
+<br/>
+			<div id="body_first" style="display:none" ></div>		
+			
+
+</div>
+
+<!--------------  End of First -----------  Start of Second ---------------------------   -->
+
+
+<div name="second" id="second" class="main" style="display:none">
+
+<div id ="second_heading"	>
+</div>
+
+			<div id="button"  >
+
+					<button id="convert" class="button-mid" onclick='operation("convert");' >Convert</button>
+
+					<br/>
+					<button id="add" class="button-mid" onclick='operation("add");' >Add</button>
+					<button id="subtract" class="button-mid" onclick='operation("subtract");' >Subtract</button>
+					<button id="multiply" class="button-mid" onclick='operation("multiply");'  >Multiply</button> 
+					<button id="divide" class="button-mid" onclick='operation("divide");' >Divide</button>
+						
+					<br/>
+
+					<button id="and" class="button-mid" onclick='operation("and");' >AND</button>
+					<button id="or" class="button-mid" onclick='operation("or");' >OR</button>
+					<button id="not" class="button-mid" onclick='operation("not");' >NOT</button>
+
+						
+						
+
+				</div>  
+
+
+</div>
+
+
+
+
+		<div name="third" class="main" id="third" style="display:none"></div>
+		<div name="fourth" class="main" id="fourth" style="display:none; width:auto;"></div>
+
+
+
+
+
+
+		<div name="final" class="final"  id="final" >
+
+
+
+
+
+		</div>
+
+
+
+
+<span style ="clear:both; float:right;">
+<a href="list.html"  >See the Base Conversion codes  </a> <br/>
+Author : <b>Vipul Nayyar  <br/>  11CSS-68 </b>
+</span>
+
+
+</body>
+
+
+</html>
